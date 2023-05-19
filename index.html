@@ -12,7 +12,7 @@
       <div class="outer-calc">
         <input type="text" id="display" readonly/>
         <div>
-          <button class="symbol" onclick="clear()">AC</button>
+          <button class="symbol" onclick="clr()">AC</button>
           <button class="symbol" onclick="del()">DEL</button>
           <button class="symbol" onclick="display('.')">.</button>
           <button class="symbol" onclick="display('/')">/</button>
@@ -36,10 +36,10 @@
           <button class="symbol" onclick="display('+')">+</button>
         </div>
         <div>
-          <button class="symbol" onclick="display('')">(</button>
+          <button class="symbol" onclick="display('(')">(</button>
           <button class="number" onclick="display('0')">0</button>
-          <button class="symbol" onclick="display('')">)</button>
-          <button class="symbol"     onclick="calc('=')">=</button>
+          <button class="symbol" onclick="display(')')">)</button>
+          <button class="symbol" onclick="calc('=')">=</button>
         </div>
       </div>
     </div>
