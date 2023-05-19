@@ -15,8 +15,3 @@ function clr() {
 function del() {
     screen.value = screen.value.slice(0, -1)
 }
-
-let symbols = document.getElementsByClassName('.symbol')
-if (screen.value == symbols) {
-    screen.value = ''
-}
