@@ -4,11 +4,11 @@ function display(num) {
     screen.value += num
 }
 
-function calc() {
+function evaluateSum() {
     screen.value = eval(screen.value)
 }
 
-function clr() {
+function clearSum() {
     screen.value = "";
 }
 
